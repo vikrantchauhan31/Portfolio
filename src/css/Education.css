@@ -1,0 +1,127 @@
+.education{
+    /* height: 100%; */
+    height: 150%;
+    width: 100%;
+    background: linear-gradient(to bottom left, #222a35, #575c66) ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+}
+.education-title{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(242, 243, 244);
+    max-height: 70px;
+}
+.education-disc{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: rgb(177, 178, 179);
+    height: 70px;
+}
+.education-disc span{
+    max-width: 600px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.clg-box img{
+    height: 50px;
+    width: 50px;
+}
+.scl-box img{
+    height: 50px;
+    width: 50px;
+}
+.clg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-bottom: 32px;
+}
+.scl{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    padding-top: -8%;
+}
+.clg-box {
+   
+    width: 620px;
+    max-height: 200px;
+    padding: 20px;
+    border:  0.1px solid rgb(133, 76, 230);
+    border-radius: 10px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.card-head{
+    display: flex;
+    height: 70px;
+    gap: 20px;
+}
+.head-right .clg-name{
+    height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(242, 243, 244, 0.6);
+}
+.clg-degree{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(177, 178, 179, 0.6);
+    height: 20px;
+}
+.dgree-dates{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(177, 178, 179, 0.5);
+    height: 18px;
+}
+.grades b{
+    font-weight: bold;
+}
+.grades{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(177, 178, 179, 0.6);
+ 
+}
+.card-body{
+    height: 20px;
+}
+.card-foot{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(242, 243, 244, 0.6);
+    margin-bottom: 10px;
+}
+.scl-box{
+    width: 620px;
+    max-height: 200px;
+    padding: 20px;
+    border:  0.1px solid rgb(133, 76, 230);
+    border-radius: 10px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.head-right .scl-name{
+    height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(242, 243, 244, 0.6);
+}

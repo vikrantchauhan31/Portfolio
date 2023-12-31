@@ -1,0 +1,132 @@
+.Home{
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: rgb(25, 25, 36);
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    padding: 5%;
+    height: calc(100% - 10%);
+    display: flex;
+    
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    font-weight: 700;
+    font-size: 50px;
+    color: aliceblue;
+    max-height:100px;
+
+}
+.about{
+    display: inline-flex;
+    height: 100px;
+}
+.static-text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+.static-text span{
+    color: rgb(207, 107, 207);
+    font-weight: 400;
+    font-size: 50px;
+}
+.description{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 42px;
+    color: rgba(242, 243, 244, 0.584);
+    height: 190px;
+}
+
+.resume-btn{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(133, 76, 230);
+    border-radius: 20px;
+    font-family: Poppins,sans-serif;
+ 
+    
+}
+.description{
+    display: flex;
+    align-items: center;
+}
+.hero-right{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: calc(100% - 100px);
+}
+.hero-right img{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    border: 2px solid palevioletred;
+}
+.hero-right img:hover{
+    transform: scale(1.1);
+}
+.resume-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume-btn:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+/* .dynamic-text{
+    
+    height: 100px;
+    line-height: 110px;
+    overflow: hidden !important;
+}
+.dynamic-text span{
+     list-style:  none;
+     color: rgb(207, 107, 207);
+     font-size: 50px;
+     font-weight: 400;
+     position: relative;
+     top:0;
+     animation: slide 4s steps(3) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+    
+}
+
+
+.dynamic-text span::after{
+    content: "|";
+    position: absolute !important;
+    height: 100%;
+    width: auto;
+    left: 0;
+    background: rgb(25, 25, 36);
+    border-left: 2px  solid  rgb(207, 107, 207);
+    animation: typing 1.5s steps(20) infinite;
+    
+}
+@keyframes typing{
+    100%{
+        left:100%;
+  
+    }
+}
+
+.dynamic-text span.complete::after {
+    display: none;
+  } */

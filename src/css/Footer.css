@@ -1,0 +1,85 @@
+.footer{
+    display: flex;
+    height: 300px;
+    background: #222a35;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 1rem;
+}
+.owner-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(133, 76, 230);
+}
+.footer-content{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(242, 243, 244);
+}
+
+
+.nav-items-detail{
+    width: 100%;
+    max-width: 800px;
+    height: 30px;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items-detail span{
+    color: rgb(242, 243, 244);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition:  0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items-detail span:hover{
+     color:  rgb(133, 76, 230);
+     cursor: pointer;
+}
+.social-media-icons{
+    display: flex;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    
+    align-items: center;
+    justify-content: center;
+}
+.social-media-icons span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+.social-media-icons span:hover{
+    color:  rgb(133, 76, 230);
+    cursor: pointer;
+}
+
+.rights-claim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
